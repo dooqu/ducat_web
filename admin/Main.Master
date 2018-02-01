@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="admin.Main" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>杜凯特商务咨询管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- STYLESHEETS -->
+    <!--[if lt IE 9]><script src="js/flot/excanvas.min.js"></script><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/cloud-admin.css">
+    <link rel="stylesheet" type="text/css" href="css/themes/default.css" id="skin-switcher">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <%--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">--%>
+    <!-- DATE RANGE PICKER -->
+<%--    <link rel="stylesheet" type="text/css" href="js/bootstrap-daterangepicker/daterangepicker-bs3.css" />--%>
+    <!-- FONTS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="navbar clearfix" id="header">
+        <div class="container">
+            <div class="navbar-brand">
+                <!-- COMPANY LOGO -->
+                <a href="index.html" style="display: none">
+                  <%--  <img src="img/logo/logo.png" alt="Cloud Admin Logo" class="img-responsive" height="30" width="120">--%>
+                </a>
+                <div style="color: white; font-size: 16px; font-weight: bold">杜凯特商务咨询管理</div>
+                <!-- /COMPANY LOGO -->
+                <!-- TEAM STATUS FOR MOBILE -->
+                <div class="visible-xs">
+                    <a href="#" class="team-status-toggle switcher btn dropdown-toggle">
+                        <i class="fa fa-users"></i>
+                    </a>
+                </div>
+                <!-- /TEAM STATUS FOR MOBILE -->
+                <!-- SIDEBAR COLLAPSE -->
+                <!--貌似没用-->
+                <div id="sidebar-collapse" class="sidebar-collapse btn" style="display: none">
+                    <i class="fa fa-bars"
+                        data-icon1="fa fa-bars"
+                        data-icon2="fa fa-bars"></i>
+                </div>
+                <!-- /SIDEBAR COLLAPSE -->
+            </div>
+            <!-- NAVBAR LEFT -->
+            <!-- /NAVBAR LEFT -->
+
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <ul class="nav navbar-nav pull-right" style="">
+                <!-- BEGIN NOTIFICATION DROPDOWN -->
+
+                <!-- END NOTIFICATION DROPDOWN -->
+                <!-- BEGIN INBOX DROPDOWN -->
+
+                <!-- END INBOX DROPDOWN -->
+                <!-- BEGIN TODO DROPDOWN -->
+
+                <!-- END TODO DROPDOWN -->
+                <!-- BEGIN USER LOGIN DROPDOWN -->
+                <li class="dropdown user" id="header-user" style="float: right">
+                    <a href="#" class="dropdown-toggle" style="float: left; font-size: 15px">
+                        <span class="username">您好，<%=GetUsername() %></span>
+
+                    </a>
+                    <a href="Logoff.aspx" class="dropdown-toggle" style="float: right; margin-right: 20px; font-size: 15px">
+                        <span class="username">[登出]</span>
+                    </a>
+                    <a href="ChangePass.aspx" class="dropdown-toggle" style="float: right; margin-right: 0px; font-size: 15px">
+                        <span class="username">[修改密码]</span>
+                    </a>
+
+                </li>
+                <!-- END USER LOGIN DROPDOWN -->
+            </ul>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+
+    </header>
+    <!--/HEADER -->
+
+    <!-- PAGE -->
+    <section id="page">
+        <!-- SIDEBAR -->
+        <div id="sidebar" class="sidebar">
+            <div class="sidebar-menu nav-collapse">
+                <div class="divide-20"></div>
+                <ul>
+                    <li>
+                        <a href="AreaManager.aspx">
+                            <i class="fa fa-tachometer fa-fw"></i><span class="menu-text;" style="font-size: 16px; font-weight: normal">查询矩阵数据管理</span>
+                        </a>
+                    </li>
+
+  
+                    <li><a class="" href="UserManager.aspx"><i class="fa fa-envelope-o fa-fw"></i><span class="menu-text" style="font-size: 16px; font-weight: normal">用户数据</span></a></li>
+                    <li><a class="" href="OrderManager.aspx"><i class="fa fa-envelope-o fa-fw"></i><span class="menu-text" style="font-size: 16px; font-weight: normal">订单数据</span></a></li>
+                     <li><a class="" href="CashManager.aspx"><i class="fa fa-envelope-o fa-fw"></i><span class="menu-text" style="font-size: 16px; font-weight: normal">提现管理</span></a></li>
+                    <li><a class="" href="PoliciesManager.aspx"><i class="fa fa-calendar fa-fw"></i>
+                        <span class="menu-text" style="font-size: 16px; font-weight: normal">优惠策略管理</span>
+                    </a>
+                    </li>
+                    <li><a class="" href="AdManager.aspx"><i class="fa fa-calendar fa-fw"></i>
+                        <span class="menu-text" style="font-size: 16px; font-weight: normal">广告投放管理</span>
+                    </a>
+                    </li>
+                     <li><a class="" href="RoleManager.aspx"><i class="fa fa-calendar fa-fw"></i>
+                        <span class="menu-text" style="font-size: 16px; font-weight: normal">角色和权限管理</span>
+                    </a>
+                    <li>
+                        <a class="" href="OperatorManager.aspx">
+                            <i class="fa fa-calendar fa-fw"></i>
+                            <span class="menu-text" style="font-size: 16px; font-weight: normal">操作员管理</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- /SIDEBAR MENU -->
+            </div>
+        </div>
+        <!-- /SIDEBAR -->
+        <div id="main-content">
+            <div class="container">
+                <div class="row">
+                    <div id="content" class="col-lg-12">
+                        <!-- PAGE HEADER-->
+
+                        <!-- 表头结束-->
+                        <!-- 查询选项 -->
+
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                         </asp:ContentPlaceHolder>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/PAGE -->
+    <!-- JAVASCRIPTS -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- JQUERY -->
+    
+    <!-- JQUERY UI-->
+<%--    <script src="js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>--%>
+    <!-- BOOTSTRAP -->
+<%--    <script src="bootstrap-dist/js/bootstrap.min.js"></script>--%>
+    <!-- DATE RANGE PICKER -->
+<%--    <script src="js/bootstrap-daterangepicker/moment.min.js"></script>
+    <script src="js/bootstrap-daterangepicker/daterangepicker.min.js"></script>--%>
+    <!-- SLIMSCROLL -->
+<%--    <script type="text/javascript" src="js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min.js"></script>--%>
+    <!-- COOKIE -->
+<%--    <script type="text/javascript" src="js/jQuery-Cookie/jquery.cookie.min.js"></script>
+    <!-- CUSTOM SCRIPT -->
+    <script src="js/script.js"></script>--%>
+    <script>
+        jQuery(document).ready(function ()
+        {
+            App.setPage("widgets_box");  //Set current page
+            App.init(); //Initialise plugins and elements
+        });
+    </script>
+    <!-- /JAVASCRIPTS -->
+</body>
+</html>

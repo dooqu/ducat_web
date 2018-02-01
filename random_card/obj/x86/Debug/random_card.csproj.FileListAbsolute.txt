@@ -1,0 +1,7 @@
+F:\技术项目\ducat_mapp\random_card\bin\x86\Debug\random_card.exe
+F:\技术项目\ducat_mapp\random_card\bin\x86\Debug\random_card.pdb
+F:\技术项目\ducat_mapp\random_card\obj\x86\Debug\random_card.GeneralForm.resources
+F:\技术项目\ducat_mapp\random_card\obj\x86\Debug\random_card.Properties.Resources.resources
+F:\技术项目\ducat_mapp\random_card\obj\x86\Debug\random_card.csproj.GenerateResource.Cache
+F:\技术项目\ducat_mapp\random_card\obj\x86\Debug\random_card.exe
+F:\技术项目\ducat_mapp\random_card\obj\x86\Debug\random_card.pdb

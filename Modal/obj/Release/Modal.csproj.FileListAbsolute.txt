@@ -1,0 +1,5 @@
+F:\技术项目\ducat_mapp\Modal\bin\Release\Modal.dll
+F:\技术项目\ducat_mapp\Modal\bin\Release\Modal.pdb
+F:\技术项目\ducat_mapp\Modal\obj\Release\Modal.dll
+F:\技术项目\ducat_mapp\Modal\obj\Release\Modal.pdb
+F:\技术项目\ducat_mapp\Modal\obj\Release\Modal.csprojResolveAssemblyReference.cache

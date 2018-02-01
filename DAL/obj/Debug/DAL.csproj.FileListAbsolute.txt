@@ -1,0 +1,7 @@
+F:\技术项目\ducat_mapp\DAL\bin\Debug\DAL.dll
+F:\技术项目\ducat_mapp\DAL\bin\Debug\DAL.pdb
+F:\技术项目\ducat_mapp\DAL\bin\Debug\Modal.dll
+F:\技术项目\ducat_mapp\DAL\bin\Debug\Modal.pdb
+F:\技术项目\ducat_mapp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\技术项目\ducat_mapp\DAL\obj\Debug\DAL.dll
+F:\技术项目\ducat_mapp\DAL\obj\Debug\DAL.pdb

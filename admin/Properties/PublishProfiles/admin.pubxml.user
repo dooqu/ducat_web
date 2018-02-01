@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\admin</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdManager.aspx">
+      <publishTime>11/28/2017 05:08:41</publishTime>
+    </File>
+    <File Include="AreaManager.aspx">
+      <publishTime>12/10/2017 16:08:38</publishTime>
+    </File>
+    <File Include="bin/admin.dll">
+      <publishTime>12/10/2017 13:52:49</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>12/10/2017 13:52:48</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>12/10/2017 13:52:48</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>10/07/2016 20:33:43</publishTime>
+    </File>
+    <File Include="bin/Modal.dll">
+      <publishTime>12/10/2017 13:52:48</publishTime>
+    </File>
+    <File Include="CashManager.aspx">
+      <publishTime>12/03/2017 04:40:20</publishTime>
+    </File>
+    <File Include="ChangePass.aspx">
+      <publishTime>12/05/2017 01:47:39</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/27/2017 02:59:28</publishTime>
+    </File>
+    <File Include="Logoff.aspx">
+      <publishTime>12/04/2017 17:34:37</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>12/05/2017 01:48:43</publishTime>
+    </File>
+    <File Include="OperatorManager.aspx">
+      <publishTime>12/01/2017 02:08:35</publishTime>
+    </File>
+    <File Include="OrderDetail.aspx">
+      <publishTime>12/04/2017 16:54:28</publishTime>
+    </File>
+    <File Include="OrderManager.aspx">
+      <publishTime>12/04/2017 11:08:35</publishTime>
+    </File>
+    <File Include="PoliciesManager.aspx">
+      <publishTime>12/10/2017 12:37:59</publishTime>
+    </File>
+    <File Include="RegManager.aspx">
+      <publishTime>12/01/2017 02:50:02</publishTime>
+    </File>
+    <File Include="RoleManager.aspx">
+      <publishTime>12/01/2017 02:06:34</publishTime>
+    </File>
+    <File Include="UserManager.aspx">
+      <publishTime>12/01/2017 02:27:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/10/2017 12:33:51</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>11/27/2017 11:10:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

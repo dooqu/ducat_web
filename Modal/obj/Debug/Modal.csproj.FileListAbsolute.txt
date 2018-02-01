@@ -1,0 +1,4 @@
+F:\技术项目\ducat_mapp\Modal\bin\Debug\Modal.dll
+F:\技术项目\ducat_mapp\Modal\bin\Debug\Modal.pdb
+F:\技术项目\ducat_mapp\Modal\obj\Debug\Modal.dll
+F:\技术项目\ducat_mapp\Modal\obj\Debug\Modal.pdb
